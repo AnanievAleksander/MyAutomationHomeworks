@@ -1,0 +1,28 @@
+Element1:
+a) link=Μερεχεν
+b) xpath=//a[contains(@href,'https://www.edna.bg/horoskopi/ribi/mesechen')]
+c) xpath=//div[contains(@id,'8')]//a[contains(@class,'right')]
+d) css=div#astroContent a.right
+g) css=div#8 div#astro div#astroContent a.right
+
+Element2:
+a) xpath=//a[contains(@href,'/beauty')]//span
+b)xpath=//a[contains(@href,'/beauty')]//span[contains(@style,'background-color')]
+c)css=ul#topnav a[href='/novini/beauty']>span
+
+Element3:
+a) xpath=//div[@class='content-position']//td[4]//a
+b) xpath=//div[@class='content-position']//a[starts-with(@href,'/login.php')]
+c) css=div.content-position tbody a[href='/login.php']
+d) css=div.content-position a[href='/login.php']
+
+Element5:
+a)xpath=//div[@class='wrapper home-page']/header//div[@class='search-block']//input[@class='search-button']
+b)xpath=//input[@class='search-button']
+c)css=//div.search-block input.search-button
+d)css=//input[class='search-button']
+
+Element7:
+a)xpath=//nav[@id='main-navigation']//li[3]/span
+b)css=nav#main-navigation ul.clearfix div.webhosting li:nth-of-type(3) span
+d)

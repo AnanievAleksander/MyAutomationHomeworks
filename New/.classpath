@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="HomeworkLecture3/HomeworkLecture3/src/|New/Lecture 3 - Code Examples/src/|HomeworkLecture4/src/MethodsAndConstructors/|HomeworkLecture2/|HomeworkLecture3/src/|HomeworkLecture5/src/|New/|New/HomeworkLecture3/src/|New/workspace/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="HomeworkLecture2"/>
+	<classpathentry kind="src" path="HomeworkLecture3/HomeworkLecture3/src"/>
+	<classpathentry kind="src" path="HomeworkLecture3/src"/>
+	<classpathentry kind="src" path="HomeworkLecture4/src/MethodsAndConstructors"/>
+	<classpathentry kind="src" path="HomeworkLecture5/src"/>
+	<classpathentry excluding="Lecture 3 - Code Examples/src/|HomeworkLecture3/src/|workspace/src/" kind="src" path="New"/>
+	<classpathentry kind="src" path="New/HomeworkLecture3/src"/>
+	<classpathentry kind="src" path="New/Lecture 3 - Code Examples/src"/>
+	<classpathentry kind="src" path="New/workspace/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="HomeworkLecture3/HomeworkLecture3/bin"/>
+</classpath>
