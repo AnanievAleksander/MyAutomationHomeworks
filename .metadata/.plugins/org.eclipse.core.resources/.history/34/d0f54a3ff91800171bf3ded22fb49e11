@@ -1,0 +1,5 @@
+package ananiev.aleksander.registration.tests;
+
+public class TestForUserRegistrationMandatoryFieldsOnly {
+
+}

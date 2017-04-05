@@ -1,0 +1,157 @@
+!SESSION 2017-04-04 07:47:10.688 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-04-04 07:47:34.359
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M_PuH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:17:55.537
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [core [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:17:55.540
+!MESSAGE core [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:17:55.552
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [co [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:17:55.552
+!MESSAGE co [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:17:55.564
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [cor [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:17:55.564
+!MESSAGE cor [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:17:55.573
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [cor [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:17:55.574
+!MESSAGE cor [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:17:57.549
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [correc [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:17:57.549
+!MESSAGE correc [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:18:07.069
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [correctUs [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:18:07.069
+!MESSAGE correctUs [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2017-04-04 08:18:10.091
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [correctUserData [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:291)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:658)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1073)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-04-04 08:18:10.091
+!MESSAGE correctUserData [in TestForUserRegistrationMandatoryFieldsOnly [in [Working copy] TestForUserRegistrationMandatoryFieldsOnly.java [in ananiev.aleksander.registration.tests [in src/test/java [in testLogin]]]]] does not exist
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-04-04 08:26:16.422
+!MESSAGE New keyring password generated. 
+!SESSION 2017-04-05 07:29:16.485 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-04-05 07:29:52.622
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M_PuH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
